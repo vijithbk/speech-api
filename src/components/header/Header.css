@@ -1,0 +1,10 @@
+.Header {
+    font-size:20pt;
+    line-height: 20px;
+    font-family: 'Josefin Sans', cursive;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 1px solid sandybrown;
+}

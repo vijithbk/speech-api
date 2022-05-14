@@ -1,5 +1,7 @@
 import React from 'react'
 import axios from "axios";
+import Button from 'react-bootstrap/Button';
+
 import data from '../../data/voices.json'
 
 const speakWithGoogle = async () => {
@@ -47,6 +49,8 @@ const Speak = () => {
 
     return (
         <div>
+            <Button onClick={speakWithGoogle} variant="contained">Contained</Button>
+
             <button onClick={speakWithGoogle}>Click</button>
         </div>
     )
