@@ -1,0 +1,53 @@
+.speechDemo {
+    justify-content: center;
+}
+
+.demo {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.recent {
+    margin-top: 30px;
+    color:gray;
+    font-weight: bold;
+    text-align: center;
+}
+
+.box {
+    width: 160px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    justify-content: center;
+    margin: 20px;
+}
+
+.boxname {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+.img {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.play {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .demo {
+        display: block;
+    }
+
+    .box {
+        margin: 0px;
+        padding: 10px;
+        margin-top: 20px;
+        width: 100%;
+    }
+}

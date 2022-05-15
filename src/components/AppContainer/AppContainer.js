@@ -1,22 +1,17 @@
 import React from 'react';
 
-import TextToSpeech from '../text-to-speech/TextToSpeech'
-import Speak from '../text-to-speech/Speak'
-import Recorder from '../recorder/Recorder'
+import SpeechDemo from '../speech-demo/SpeechDemo';
 
 import './AppContainer.css';
 
+
 function AppContainer() {
   return (
-    <div className='AppContainer'>
-      <div className="item">
-          <TextToSpeech />
+    <React.Fragment>
+      <div>
+        <SpeechDemo />
       </div>
-
-      <div className="item">
-        <Recorder />
-      </div>
-    </div>
+    </React.Fragment>
   );
 }
 

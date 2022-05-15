@@ -8,3 +8,21 @@
     padding: 40px 0;
     border-bottom: 1px solid sandybrown;
 }
+
+.name {
+    color: rgb(255, 87, 34)
+}
+
+.subHeader {
+    text-align: center;
+    padding: 20px;
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.subTitle {
+    padding: 20px;
+    padding-top: 20px;
+    text-align: center;
+}
